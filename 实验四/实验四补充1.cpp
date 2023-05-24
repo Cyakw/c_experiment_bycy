@@ -36,14 +36,14 @@ public:
 
 int main() {
     juzheng A, B;
-    cout << "输入数组 A:" << endl;
+    cout << "鐭╅樀 A:" << endl;
     A.getshu();
-    cout << "输入数组 B:" << endl;
+    cout << "鐭╅樀 B:" << endl;
     B.getshu();
 
     juzheng C = A + B;
 
-    cout << "矩阵 C:" << endl;
+    cout << "鐭╅樀 C:" << endl;
     C.putshu();
 
     return 0;
